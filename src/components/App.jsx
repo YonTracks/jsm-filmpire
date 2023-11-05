@@ -6,6 +6,10 @@ import Home from "./Home/Home";
 import Actors from "./Actors/Actors";
 import Profile from "./Profile/Profile";
 import NavBar from "./NavBar/NavBar";
+{
+  /**Using tailwind instead of importing useStyles and mui... etc */
+}
+// So no need for a seperate styles.js.
 
 export default function App() {
   return (
