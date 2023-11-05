@@ -3,7 +3,11 @@
 import React from "react";
 
 function Profile() {
-  return <div>Profile</div>;
+  return (
+    <div className="flex justify-center items-center">
+      <h1 className="text-center text-black">Profile</h1>
+    </div>
+  );
 }
 
 export default Profile;
