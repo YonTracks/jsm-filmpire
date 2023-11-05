@@ -3,7 +3,11 @@
 import React from "react";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="flex justify-center items-center">
+      <h1 className="text-center text-black">Movies</h1>
+    </div>
+  );
 }
 
 export default Home;
